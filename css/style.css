@@ -1,5 +1,51 @@
-#container {height: 100%; width:100%; font-size:0;}
-#left, #middle, #right {display: inline-block;zoom: 1; vertical-align:top;font-size: 12px;}
-#left{width: 25%; background: blue;}
-#middle{width: 50%; background: green;}
-#right{width: 25%; background: yellow;}
+/* h1 {
+    background-color: powderblue;color:red;
+}
+p {
+    color:blue;
+} */
+#aboutMe 
+{
+    position: fixed;
+    top: 30px;
+    left: 60px;
+    right: 60px;
+    bottom: 30px;
+    height: 400px;
+    background: lightgrey;
+}
+
+    #edHistory 
+    {
+        position: float: left;
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+        display: block;
+        padding: 20px;
+        margin-top: 200px;
+        background: blueviolet;
+    }
+    #job 
+    {
+        position: float: center;
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+        display: block;
+        padding: 20px;
+        background: orchid;
+    }
+    #goals
+    {
+        position: float: right;
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+        display: block;
+        padding: 20px;
+        background: orange;
+    }

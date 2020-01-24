@@ -2,11 +2,10 @@
 // use strict is almost alwayst the first line of our js files
 console.log('It is working!');
 
-<script>
         var user = prompt("What is your name?"); 
             console.log(user + " , thank you for taking the time to visit my page!");
 {/* [normalize the response with the lowercase] */}
-        var readyForQ = prompt(user + " , are you ready to start the quiz?  Don\'t be scared, you will do fine.")
+        var readyForQ = prompt(user + ", are you ready to start the quiz?  Don\'t be scared, you will do fine.")
         if (confirm("Press a button!")) {
             txt = "Yeah!  Let\'s go!";
             } else {
@@ -25,4 +24,4 @@ console.log('It is working!');
         var workOut = prompt("I workout in my own home");
             console.log(workOut);  
         {/* [need to validate answer with yes/no or y/n] */}
-    </script>
+    
