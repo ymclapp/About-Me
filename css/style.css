@@ -49,3 +49,14 @@ p {
         padding: 20px;
         background: orange;
     }
+    #eagles
+    {
+        position: float: right;
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+        display: block;
+        padding: 20px;
+        background: brown;
+    }
