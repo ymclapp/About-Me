@@ -6,7 +6,7 @@ p {
 } */
 #aboutMe 
 {
-    position: fixed;
+    position: float: center;
     top: 30px;
     left: 60px;
     right: 60px;
@@ -24,7 +24,6 @@ p {
         bottom: 30px;
         display: block;
         padding: 20px;
-        margin-top: 200px;
         background: blueviolet;
     }
     #job 
@@ -59,4 +58,5 @@ p {
         display: block;
         padding: 20px;
         background: brown;
+        text-align: center;
     }
