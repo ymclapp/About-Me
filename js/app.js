@@ -2,10 +2,10 @@
 // use strict is almost alwayst the first line of our js files
 console.log('It is working!');
 
-var user = prompt("What is your name?"); 
+var user = prompt("What is your name?");
 console.log(user + " , thank you for taking the time to visit my page!");
-    // alert(user + " , thank you for taking the time to visit my page!");
-    
+// alert(user + " , thank you for taking the time to visit my page!");
+
 // var readyForQ = confirm(user + ", are you ready to start the quiz?  Don\'t be scared, you will do fine.")
 // // need a confirm in here
 // // do {
@@ -14,47 +14,58 @@ console.log(user + " , thank you for taking the time to visit my page!");
 // // } while (!true);
 // console.log('Let\'s Go!);
 
-var dog = confirm("I currently have four dogs\nOk = Yes and Cancel = No");
-// var dog = ('YES', 'NO', 'Y', 'N', 'Yes', 'No');
-// str = str.toLowerCase();
-// console.log(str);
+var dog = prompt('I currently have four dogs.\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+console.log(dog)
 
+if (dog === 'n' || dog === 'no') {
+    alert("That is correct!  I have two pucheinies (pug/chihuahua/weinie dog");
+} else if (dog === 'yes' || dog === 'y') {
+    alert("That is correct!    I have two pucheinies (pug/chihuahua/weinie dog");
+} else {
+    alert("Please provide an answer in the correct format");
+}
 
-// if (sign.toLowerCase() == "scorpio") {
-//     alert("Wow! I'm a Scorpio too!");
-//   }   
-console.log(dog);
-    // [need to validate answer with yes/no or y/n]
-var liveCo = confirm('I lived in Colorado for five months');
-    console.log(liveCo);  
-    // [need to validate answer with yes/no or y/n]
+var liveCo = prompt('Did I live in Colorado for five months?');
+console.log(liveCo);
+alert("Make sure your answer is in the format of yes or no or y or n");
+if (liveCo === 'n' || liveCo === 'no') {
+    alert("That is incorrect!  I have never lived in Colorado.");
+} else if (liveCo === 'yes' || liveCo === 'y') {
+    alert("You're correct!  I have never lived in Colorado");
+} else {
+    alert("Please provide an answer in the correct format");
+}
+
 var goal = confirm('One of my goals is to reinvent myself');
-    console.log(goal);  
-    // [need to validate answer with yes/no or y/n]
+console.log(goal);
+// [need to validate answer with yes/no or y/n]
 var workOut = confirm('I workout in my own home');
-    console.log(workOut);  
+console.log(workOut);
 // [need to validate answer with yes/no or y/n]
 
 var guessNumber = prompt("I have a number in my bit-brain that is between 1 and 23.  What number am I thinking of?");
-var greeting=""
-if(guessNumber ==='17')  {
-    greeting = "You got it!";
+console.log(guessNumber)
+if (guessNumber === '17') {
+    alert("You got it!");
 } else if (guessNumber < '16' || guessNumber > '18') {
-    greeting = "You're too cold!";
-}  else (guessNumber === '16' || guessNumber === '18'); {
-    greeting = "You're getting warmer!"
+    alert("You're too cold!");
+} else if (guessNumber === '16' || guessNumber === '18') {
+    alert("You're getting warmer!");
+} else {
+    alert("Please provide an answer in the correct format/between 1 and 23");
 }
-        console.log(guessNumber);  
-// [need a loop for number guess and a break when they guess the correct answer]
 
 var bands = ['Bon Jovi', 'Guns and Roses', 'Tesla', 'Motley Crue', 'Cinderella', 'Kix', 'Def Leppard', 'Poison', 'Warrant'];
 
 var eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will let you know if it was one that I liked.  Go!");
-for (var i = 0; i < bands.length; i++) {
-    
+console.log(eighties);
+if (eighties == 'bon jovi' || eighties == 'guns and rose' || eighties == 'tesla' || eighties == 'motley crue' || eighties == 'cinderella' || eighties == 'kix' || eighties == 'def leppard' || eighties == 'poison' || eighties == 'warrant') {
+    alert("Bang your head!  Way to go!");
+} else(eighties); {
+    alert("You're getting warmer!");
 }
 // Use if else to compare all of then if === bon jovi then else if === guns and RTCSessionDescription, then...else would be incorrect answer and ask them to try again
-    console.log(eighties);  
+console.log(eighties);
 // [Also need a loop that has a break when they guess a correct answer]
 
 // [Placeholder for creating the number of correct answers out of X questions]
