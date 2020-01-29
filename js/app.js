@@ -3,8 +3,8 @@
 console.log('It is working!');
 
 var user = prompt("What is your name?");
-console.log(user + " , thank you for taking the time to visit my page!");
-// alert(user + " , thank you for taking the time to visit my page!");
+// console.log(user + " , thank you for taking the time to visit my page!");
+alert(user + " , thank you for taking the time to visit my page!");
 
 // var readyForQ = confirm(user + ", are you ready to start the quiz?  Don\'t be scared, you will do fine.")
 // // need a confirm in here
@@ -14,37 +14,57 @@ console.log(user + " , thank you for taking the time to visit my page!");
 // // } while (!true);
 // console.log('Let\'s Go!);
 
-var dog = prompt('I currently have four dogs.\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+var dog = prompt('I currently have four dogs.\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
 console.log(dog)
 
 if (dog === 'n' || dog === 'no') {
     alert("That is correct!  I have two pucheinies (pug/chihuahua/weinie dog");
 } else if (dog === 'yes' || dog === 'y') {
-    alert("That is correct!    I have two pucheinies (pug/chihuahua/weinie dog");
+    alert("That is incorrect!    I have two pucheinies (pug/chihuahua/weinie dog");
+     // tally
 } else {
     alert("Please provide an answer in the correct format");
 }
 
-var liveCo = prompt('Did I live in Colorado for five months?');
+var liveCo = prompt('Did I live in Colorado for five months?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
 console.log(liveCo);
-alert("Make sure your answer is in the format of yes or no or y or n");
+
 if (liveCo === 'n' || liveCo === 'no') {
-    alert("That is incorrect!  I have never lived in Colorado.");
+    alert("That is correct!  I have never lived in Colorado.");
 } else if (liveCo === 'yes' || liveCo === 'y') {
-    alert("You're correct!  I have never lived in Colorado");
+    alert("You're incorrect!  I have never lived in Colorado");
+     // tally
 } else {
     alert("Please provide an answer in the correct format");
 }
 
-var goal = confirm('One of my goals is to reinvent myself');
+var goal = prompt('One of my goals is to reinvent myself\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
 console.log(goal);
-// [need to validate answer with yes/no or y/n]
-var workOut = confirm('I workout in my own home');
+
+if (goal === 'n' || goal === 'no') {
+    alert("That is incorrect!  I look forward to reinventing myself with these coding courses");
+} else if (goal === 'yes' || goal === 'y') {
+    alert("That is correct!  I look forward to reinventing myself with these coding courses");
+    // tally
+} else {
+    alert("Please provide an answer in the correct format");
+}
+
+var workOut = prompt('I workout in my own home\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
 console.log(workOut);
-// [need to validate answer with yes/no or y/n]
+
+if (workOut === 'n' || workOut === 'no') {
+    alert("That is incorrect!  I workout with Beachbody on Demand regularly");
+} else if (workOut === 'yes' || workOut === 'y') {
+    alert("That is correct!  I workout with Beachbody on Demand regularly");
+    // tally
+} else {
+    alert("Please provide an answer in the correct format");
+}
 
 var guessNumber = prompt("I have a number in my bit-brain that is between 1 and 23.  What number am I thinking of?");
 console.log(guessNumber)
+
 if (guessNumber === '17') {
     alert("You got it!");
 } else if (guessNumber < '16' || guessNumber > '18') {
@@ -59,13 +79,15 @@ var bands = ['Bon Jovi', 'Guns and Roses', 'Tesla', 'Motley Crue', 'Cinderella',
 
 var eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will let you know if it was one that I liked.  Go!");
 console.log(eighties);
+//    eighties.tolowercase();
 if (eighties == 'bon jovi' || eighties == 'guns and rose' || eighties == 'tesla' || eighties == 'motley crue' || eighties == 'cinderella' || eighties == 'kix' || eighties == 'def leppard' || eighties == 'poison' || eighties == 'warrant') {
-    alert("Bang your head!  Way to go!");
-} else(eighties); {
-    alert("You're getting warmer!");
+     alert("Bang your head!  Way to go!");
+     alert(user + ", thank you again for visiting my page!");
+} else {
+    alert("Keep practicing your cowbell!");
+    alert(user + ", thank you again for visiting my page!");
 }
-// Use if else to compare all of then if === bon jovi then else if === guns and RTCSessionDescription, then...else would be incorrect answer and ask them to try again
-console.log(eighties);
+
 // [Also need a loop that has a break when they guess a correct answer]
 
 // [Placeholder for creating the number of correct answers out of X questions]
