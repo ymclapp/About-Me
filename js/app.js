@@ -6,6 +6,17 @@ var user = prompt("What is your name?");
 // console.log(user + " , thank you for taking the time to visit my page!");
 alert(user + " , thank you for taking the time to visit my page!");
 
+var ready = prompt('Are you ready to start the quiz? \n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+console.log(ready)
+
+if (ready === 'n' || ready === 'no') {
+    alert("Okay then.  Good bye, " + user);
+} else if (ready === 'yes' || ready === 'y') {
+    alert("Ok!  Let\'s go!");
+} else {
+    alert("Please provide an answer in the correct format");
+}
+
 var dog = prompt('I currently have four dogs.\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
 console.log(dog)
 
@@ -69,9 +80,18 @@ if (guessNumber === '17') {
 
 var bands = ['Bon Jovi', 'Guns and Roses', 'Tesla', 'Motley Crue', 'Cinderella', 'Kix', 'Def Leppard', 'Poison', 'Warrant'];
 
+// var eighties;
+// do {
 var eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will let you know if it was one that I liked.  Go!");
 console.log(eighties);
 //    eighties.tolowercase();
+
+    eighties = eighties && eighties.toLowerCase();
+
+  if (eighties) { // or answer == null or answer === null
+    eighties = eighties.toLowerCase();
+  }
+
 if (eighties == 'bon jovi' || eighties == 'guns and rose' || eighties == 'tesla' || eighties == 'motley crue' || eighties == 'cinderella' || eighties == 'kix' || eighties == 'def leppard' || eighties == 'poison' || eighties == 'warrant') {
      alert("Bang your head!  Way to go!");
      alert(user + ", thank you again for visiting my page!");
