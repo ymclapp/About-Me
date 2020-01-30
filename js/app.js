@@ -83,19 +83,28 @@ var bands = ['Bon Jovi', 'Guns and Roses', 'Tesla', 'Motley Crue', 'Cinderella',
 // var eighties;
 // do {
 var eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will let you know if it was one that I liked.  Go!");
+var i:
+for (i = 0; i<bands.length; i++) {
+    if (i == bands) {
+        break;
+      }
+      text += "The number is " + i + "<br>";
+}
 // console.log(eighties);
 eighties = eighties && eighties.toLowerCase();
-if (eighties) { // or answer == null or answer === null
-	eighties = eighties.toLowerCase();
-}
 
-if (eighties == 'bon jovi' || eighties == 'guns and rose' || eighties == 'tesla' || eighties == 'motley crue' || eighties == 'cinderella' || eighties == 'kix' || eighties == 'def leppard' || eighties == 'poison' || eighties == 'warrant') {
-	alert("Bang your head!  Way to go!");
-	alert(user + ", thank you again for visiting my page!");
-} else {
-	alert("Keep practicing your cowbell!");
-	alert(user + ", thank you again for visiting my page!");
-}
+
+// if (eighties) { // or answer == null or answer === null
+// 	eighties = eighties.toLowerCase();
+// }
+
+// if (eighties == 'bon jovi' || eighties == 'guns and rose' || eighties == 'tesla' || eighties == 'motley crue' || eighties == 'cinderella' || eighties == 'kix' || eighties == 'def leppard' || eighties == 'poison' || eighties == 'warrant') {
+//     alert("Bang your head!  Way to go!\n\nHere are the bands that were my top picks:  Bon Jovi, Guns and Roses, Tesla, Motley Crue, Cinderella, Kix, Def Leppard, and Poison.");
+// 	alert(user + ", thank you again for visiting my page!");
+// } else {
+// 	alert("Keep practicing your cowbell!\n\nHere are the bands that were my top picks:  Bon Jovi, Guns and Roses, Tesla, Motley Crue, Cinderella, Kix, Def Leppard, and Poison.");
+// 	alert(user + ", thank you again for visiting my page!");
+// }
 
 // [Also need a loop that has a break when they guess a correct answer]
 
