@@ -6,14 +6,6 @@ var user = prompt("What is your name?");
 // console.log(user + " , thank you for taking the time to visit my page!");
 alert(user + " , thank you for taking the time to visit my page!");
 
-// var readyForQ = confirm(user + ", are you ready to start the quiz?  Don\'t be scared, you will do fine.")
-// // need a confirm in here
-// // do {
-// //     readyForQ = confirm(user + ", are you ready to start the quiz?  Don\'t be scared, you will do fine.");
-// //   console.log(readyForQ);
-// // } while (!true);
-// console.log('Let\'s Go!);
-
 var dog = prompt('I currently have four dogs.\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
 console.log(dog)
 
