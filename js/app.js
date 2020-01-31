@@ -17,7 +17,7 @@ if (ready === 'n' || ready === 'no') {
     alert("Please provide an answer in the correct format");
 }
 
-function dogNumber {
+function dogNumber() {
     var dog = prompt('I currently have four dogs.\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
     // // console.log(dog)
 
@@ -31,7 +31,7 @@ function dogNumber {
     }
 }
 
-function liveCo {
+function liveCo() {
     var liveCo = prompt('Did I live in Colorado for five months?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
     // // console.log(liveCo);
 
