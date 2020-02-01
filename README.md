@@ -1,3 +1,5 @@
+I was the Navigator and Chris Woodward was the Driver.
+
 # About-Me
 This is a site about me, lab 02
 
