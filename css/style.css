@@ -6,21 +6,21 @@ p {
 } */
 #aboutMe 
 {
-    position: float: center;
+    /* float: center */
     top: 30px;
-    left: 60px;
-    right: 60px;
+    left: 80px;
+    right: 80px;
     bottom: 30px;
-    height: 400px;
+    height: 500px;
     background: lightgrey;
 }
 
     #edHistory 
     {
-        position: float: left;
+        float: left;
         top: 30px;
-        left: 30px;
-        right: 30px;
+        left: 20px;
+        right: 20px;
         bottom: 30px;
         display: block;
         padding: 20px;
@@ -28,10 +28,10 @@ p {
     }
     #job 
     {
-        position: float: center;
+        float: center;
         top: 30px;
-        left: 30px;
-        right: 30px;
+        left: 20px;
+        right: 20px;
         bottom: 30px;
         display: block;
         padding: 20px;
@@ -39,10 +39,10 @@ p {
     }
     #goals
     {
-        position: float: right;
+        float: right;
         top: 30px;
-        left: 30px;
-        right: 30px;
+        left: 20px;
+        right: 20px;
         bottom: 30px;
         display: block;
         padding: 20px;
@@ -50,7 +50,7 @@ p {
     }
     #eagles
     {
-        position: float: right;
+        float: right;
         top: 30px;
         left: 30px;
         right: 30px;
