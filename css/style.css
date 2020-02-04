@@ -12,51 +12,66 @@ p {
     right: 80px;
     bottom: 30px;
     height: 500px;
+    border-style: groove;
+    border-color: tomato;
     background: lightgrey;
 }
 
     #edHistory 
     {
+        box-sizing: content-box;
         float: left;
-        top: 30px;
-        left: 20px;
-        right: 20px;
-        bottom: 30px;
-        display: block;
-        padding: 20px;
-        background: blueviolet;
+        width: 22%;
+        height: 250px;
+        border: solid #5B6DCD 10px;
+        padding: 25px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background: red;
     }
     #job 
     {
-        float: center;
-        top: 30px;
-        left: 20px;
-        right: 20px;
-        bottom: 30px;
-        display: block;
-        padding: 20px;
-        background: orchid;
+        box-sizing: content-box;
+        float: left;
+        width: 22%;
+        height: 250px;
+        border: solid #5B6DCD 10px;
+        padding: 25px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background: burlywood;
     }
     #goals
     {
-        float: right;
-        top: 30px;
-        left: 20px;
-        right: 20px;
-        bottom: 30px;
-        display: block;
-        padding: 20px;
-        background: orange;
+        box-sizing: content-box;
+        float: left;
+        width: 22%;
+        height: 250px;
+        border: solid #5B6DCD 10px;
+        padding: 25px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background: greenyellow;
     }
     #eagles
     {
+        /* width: 27%;
+        border: solid #5B6DCD 10px;
+        padding: 5px;
+        background: greenyellow;
+        float: center;
+        background: teal;
+        text-align: center; */
         float: right;
+        border: solid #5B6DCD 10px;
+        padding: 5px;
+        margin-top: 20px;
         top: 30px;
         left: 30px;
         right: 30px;
         bottom: 30px;
         display: block;
         padding: 20px;
-        background: brown;
+        background: teal;
         text-align: center;
     }
