@@ -23,7 +23,7 @@ p {
         float: left;
         width: 22%;
         height: 250px;
-        border: solid #5B6DCD 10px;
+        border: solid rgb(161, 114, 11) 10px;
         padding: 25px;
         margin-left: 20px;
         margin-top: 20px;
@@ -35,7 +35,7 @@ p {
         float: left;
         width: 22%;
         height: 250px;
-        border: solid #5B6DCD 10px;
+        border: solid rgb(161, 114, 11) 10px;
         padding: 25px;
         margin-left: 20px;
         margin-top: 20px;
@@ -47,7 +47,7 @@ p {
         float: left;
         width: 22%;
         height: 250px;
-        border: solid #5B6DCD 10px;
+        border: solid rgb(161, 114, 11) 10px;
         padding: 25px;
         margin-left: 20px;
         margin-top: 20px;
@@ -63,7 +63,7 @@ p {
         background: teal;
         text-align: center; */
         float: right;
-        border: solid #5B6DCD 10px;
+        border: solid rgb(18, 166, 177) 10px;
         padding: 5px;
         margin-top: 20px;
         top: 30px;
